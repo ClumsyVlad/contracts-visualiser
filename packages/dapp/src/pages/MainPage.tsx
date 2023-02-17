@@ -5,7 +5,7 @@ import { getExplorerLinkByAddress, getExplorerLinkByTxHash, getShortenAddress } 
 
 export const MainPage = () => {
   const [fileAsString, setFileAsString] = useState<string | null>()
-  const [fileAsJSON, setFileAsJSON] = useState<object | null>()
+  const [fileAsJSON, setFileAsJSON] = useState<Record<string, any> | null>()
   const reader = new FileReader()
   reader.onload = logFile
 
