@@ -4,7 +4,6 @@ import { ContractTable } from "../components"
 import { getExplorerLinkByAddress, getExplorerLinkByTxHash, getShortenAddress } from "../utils/"
 
 export const MainPage = () => {
-  const [fileAsString, setFileAsString] = useState<string | null>()
   const [fileAsJSON, setFileAsJSON] = useState<Record<string, any> | null>()
   const reader = new FileReader()
   reader.onload = logFile
@@ -19,7 +18,6 @@ export const MainPage = () => {
   function logFile(event: ProgressEvent<FileReader>) {
     let str = event.target?.result as string
     if (str) {
-      setFileAsString(str)
       setFileAsJSON(JSON.parse(str))
     }
   }
