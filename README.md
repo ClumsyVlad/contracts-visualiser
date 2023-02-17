@@ -1,2 +1,1 @@
-# contracts-visualiser
-Contracts visualiser
+Contracts visalizer
