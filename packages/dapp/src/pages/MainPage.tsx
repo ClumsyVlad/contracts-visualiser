@@ -1,6 +1,7 @@
 import React, { Fragment, useMemo } from "react"
 import { ChangeEvent, useState } from "react"
 import { ContractTable } from "../components"
+import { getExplorerLinkByAddress, getExplorerLinkByTxHash, getShortenAddress } from "../utils/"
 
 export const MainPage = () => {
   const [fileAsString, setFileAsString] = useState<string | null>()
@@ -58,12 +59,19 @@ export const MainPage = () => {
 
       {fileAsJSON && Object.keys(fileAsJSON).map((chain) => {
         const chainFromJSON = fileAsJSON[chain]
-        const tableByChainData = Object.keys(chainFromJSON).map((contract) => ({
-          contractName: <span className="table__content">{contract}</span>,
-          txHash: <span className="table__content">{chainFromJSON[contract]["txHash"]}</span>,
-          address: <span className="table__content">{chainFromJSON[contract]["address"]}</span>,
-          multisig: <span className="table__content">{chainFromJSON[contract]["multisig"].toString()}</span>,
-        }))
+        const tableByChainData = Object.keys(chainFromJSON).map((contract) => {
+          const contractName = contract
+          const txHash = chainFromJSON[contract]["txHash"]
+          const address = chainFromJSON[contract]["address"]
+          const multisig = chainFromJSON[contract]["multisig"]
+
+          return ({
+            contractName: <span className="table__content">{contractName}</span>,
+            txHash: <a href={getExplorerLinkByTxHash(chain, txHash)} target="_blank" title="Explore transaction">{getShortenAddress(txHash)} </a>,
+            address: <a href={getExplorerLinkByAddress(chain, address)} target="_blank" title="Explore contract"> {getShortenAddress(address)}</a>,
+            multisig: <span className="table__content">{multisig ? '✅' : '❌'}</span>,
+          })
+        })
 
         return (
           <div className="chainBlock" key={chain}>
