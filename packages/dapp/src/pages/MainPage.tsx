@@ -1,6 +1,6 @@
 import { useMemo } from "react"
 import { ChangeEvent, useState } from "react"
-import { ContractTable } from "../components"
+import { ContractTable, JSONInput } from "../components"
 import { getExplorerLinkByAddress, getExplorerLinkByTxHash, getShortenAddress } from "../utils/"
 
 export const MainPage = () => {
@@ -49,11 +49,7 @@ export const MainPage = () => {
       <p>
         Upload your contract (e.g. 'deployments.json')
       </p>
-      <input
-        type="file"
-        accept="application/json"
-        onChange={handleFileSelected}
-      />
+      <JSONInput onChange={handleFileSelected} />
 
       {fileAsJSON && Object.keys(fileAsJSON).map((chain) => {
         const chainFromJSON = fileAsJSON[chain]
