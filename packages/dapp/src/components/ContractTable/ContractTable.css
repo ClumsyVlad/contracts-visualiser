@@ -1,0 +1,25 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 4px 8px;
+  border: 1px solid white;
+}
+
+.table__cell {
+  font-weight: 500;
+}
+
+.table__cell--header {
+  font-weight: 600;
+}
+
+.table__content {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
