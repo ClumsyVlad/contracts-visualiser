@@ -46,7 +46,7 @@ export const MainPage = () => {
         return (
           <div className="deployment" key={deployment}>
             <h2 className="deploymentTitle">
-              {deployment}
+              Deployment: {deployment}
             </h2>
             {deploymentChainNamesList.map((chainName, index) => {
               const dataByChainName = deploymentData[chainName]
@@ -64,7 +64,7 @@ export const MainPage = () => {
               })
               return (
                 <div className="deploymentChain" key={index}>
-                  <h3 className="deploymentChain">{chainName}</h3>
+                  <h3 className="deploymentChain__name">Chain: {chainName}</h3>
                   <div className="chainBlock__table-wrapper">
                     <ContractTable columns={columns} data={tableByChainData} />
                   </div>
