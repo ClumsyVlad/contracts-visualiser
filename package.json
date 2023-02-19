@@ -1,7 +1,7 @@
 {
-  "name": "hackathon-starter",
-  "version": "0.0.0",
-  "private": true,
+  "name": "contracts_visualizer",
+  "version": "0.0.1",
+  "private": false,
   "workspaces": [
     "apps/*",
     "packages/*"
