@@ -1,0 +1,24 @@
+{
+  "goerli": {
+    "merkleTreeVerifier": {
+      "txHash": "0x4ce5fc19e18ba632acab4923d187d300c38b8c308ca76d9899dc2625e19ec8d9",
+      "address": "0xF361e0cCA6350204F4C23F5b5e9315713a399583",
+      "source": "contracts-lithium"
+    },
+    "nonUS_AllowListLenderVerifier": {
+      "txHash": "0x7cbef3b4932a542836d760f3c08ab0bd908a7b0c726810a08191e70cd147b728",
+      "address": "0xBC9096f0E1206ED00Dcd171ABC1B7DD5EFB766Db",
+      "multisig": false
+    },
+    "nonUSKYC_ProxyLenderVerifier": {
+      "txHash": "0x1cf29bc09658b7075bd4f173fd206363917f28896f7690f3048e57bc4cdca545",
+      "address": "0xd82531Df98918B7E973A49bB38fe208EA1942a33",
+      "multisig": false
+    },
+    "genericUsaLegalPerson_VeriteLenderVerifier": {
+      "txHash": "0xa635ba8530d4ed7bee95a1fd9cda7edb38f83e128eac07cb770e09725235d264",
+      "address": "0xDc245A34545595435fe5c3ae1bdd0e4926BbA10b",
+      "multisig": false
+    }
+  }
+}

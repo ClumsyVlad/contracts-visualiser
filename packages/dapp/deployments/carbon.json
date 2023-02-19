@@ -1,0 +1,200 @@
+{
+  "ganache": {
+    "structuredPortfolio": {
+      "txHash": "0xcbaae3a5b9434ff2ad49d22886cf551147b641daead99c3cedebd59111651bb6",
+      "address": "0xA193E42526F1FEA8C99AF609dcEabf30C1c29fAA",
+      "multisig": false
+    },
+    "trancheVault": {
+      "txHash": "0x218508c914168d4df81e67d3e34436cb085490075a48ae217b4f0f83ae3e2db2",
+      "address": "0xFDFEF9D10d929cB3905C71400ce6be1990EA0F34",
+      "multisig": false
+    },
+    "carbon_protocolConfig": {
+      "txHash": "0x0c58780e0c681fc5c380e69d2c531fcca70581c0c5684959ef9a2b5cefe9e832",
+      "address": "0xaC8444e7d45c34110B34Ed269AD86248884E78C7",
+      "multisig": false
+    },
+    "carbon_protocolConfig_proxy": {
+      "txHash": "0x9742b4f90ba3ca354c945d3fd6c25d16ec3c789b76d3b8298560497555e15a51",
+      "address": "0x94BA4d5Ebb0e05A50e977FFbF6e1a1Ee3D89299c",
+      "multisig": false
+    },
+    "structuredPortfolioFactory": {
+      "txHash": "0x5a502af106776db7a54c2960534451e96289f13b0c6ae8a563c98285ba9a0de0",
+      "address": "0xFf807885934003A35b1284d7445fc83Fd23417e5",
+      "multisig": false
+    },
+    "carbon_defaultDepositController": {
+      "txHash": "0xc44fa041df87078f438a7e6dd1165370ebbf5974b44ec6700867c8ccfe6cbec0",
+      "address": "0xD756fb6A081CC11e7F513C39399DB296b1DE3036",
+      "multisig": false
+    },
+    "carbon_defaultWithdrawController": {
+      "txHash": "0x29e805dbe7fa99c6d36aefee8ebdc6348e3f9375b58c9f9b499e0df296e3ce49",
+      "address": "0x956dA338C1518a7FB213042b70c60c021aeBd554",
+      "multisig": false
+    },
+    "carbon_defaultTransferController": {
+      "txHash": "0xd63ec32b3043d42d5a89d1a6258bc88df3a035e63dea8b880562296737d52b43",
+      "address": "0xdCCc660F92826649754E357b11bd41C31C0609B9",
+      "multisig": false
+    },
+    "allowAllLenderVerifier": {
+      "txHash": "0x3af28b5b27b3173df24f672e26b676cc6d2e74e7f39fed5c696c60d5b3aa2fab",
+      "address": "0x84e924C5E04438D2c1Df1A981f7E7104952e6de1",
+      "multisig": false
+    },
+    "mockUsdc": {
+      "txHash": "0x8e59ac027a26dc4bf5d6ed907f978bd9436f40e7eda848175455181381b471e3",
+      "address": "0x6454C9d69a4721feBA60e26A367bD4D56196Ee7c",
+      "multisig": false
+    },
+    "fixedInterestOnlyLoans_proxy": {
+      "txHash": "0x94f7c21f807aaded4674c0beae0fc056f5ac6cf85a887eebf1e8224baf1bfe62",
+      "address": "0x4E0597863fA1AA7B6b95a887AD9fEee038815642",
+      "multisig": false
+    }
+  },
+  "goerli": {
+    "structuredPortfolio": {
+      "txHash": "0x448d520666420881ca4ab4184eaba49b44d87945b5c55fa5a2339e3e98034159",
+      "address": "0xB51006B1B470DeCa6d9FB92e34C701a555116802",
+      "multisig": false
+    },
+    "trancheVault": {
+      "txHash": "0x43443a2322a64235834d2f6edddb926a82b25a392bac00f9908331282b13b475",
+      "address": "0x67CB2B1B86131E75CFd4Eb5Ca8B77b0c96740de9",
+      "multisig": false
+    },
+    "carbon_protocolConfig": {
+      "txHash": "0x18c4df972b26e31ca69dc8c6b2bda190bf0443e1a4618e6edb8afe266708c7ae",
+      "address": "0xb43aAb3D05481f443C764a92deE6b125AdCE7ddF",
+      "multisig": false
+    },
+    "carbon_protocolConfig_proxy": {
+      "txHash": "0x6a0f7888e1d88029cbae374d0ae8cabb642f01c89e1ad3fe2b549d2d2da1b623",
+      "address": "0xb395677F055D7f918072d1dBeF6980e2f380993D",
+      "multisig": false
+    },
+    "structuredPortfolioFactory": {
+      "txHash": "0x1e8a056022b3e8988b8c48c0bddf0b44cf622b87426df3d7fb18d77f965fc66a",
+      "address": "0x6460548d4a0F8f2491C94a7D72dB2A4016a61943",
+      "multisig": false
+    },
+    "carbon_defaultDepositController": {
+      "txHash": "0x87f4ff77081e0e1eda333c554590f44dad72a4c594def9f67d46b7337829b74e",
+      "address": "0xcA56B2eABaFc2D5258Ef02921D4Aaf6c5Ae30800",
+      "multisig": false
+    },
+    "carbon_defaultWithdrawController": {
+      "txHash": "0xa8cb1149be3daaa8e048452675af0458efb1dd8016fa7f5f8402b00737f2fbca",
+      "address": "0x18650000948Fa9eFDF20e423E087e5383442bb98",
+      "multisig": false
+    },
+    "carbon_defaultTransferController": {
+      "txHash": "0x56c15480f4dec48b54e06d1b33a6ce778bf44bad884a601c02e60ce1bd3e04b0",
+      "address": "0x635d8112bF6Bdfa1b43FA2D6Ce09125DBA0aa686",
+      "multisig": false
+    },
+    "allowAllLenderVerifier": {
+      "txHash": "0x126e02c3f25c11148e808b0eb93c1fe7b7a0326f3f957b76eff0adcbea57da96",
+      "address": "0xb2eDC26EFe8F7cdDBca0a958010F5994BF2346e7",
+      "multisig": false
+    }
+  },
+  "mainnet": {
+    "structuredPortfolio": {
+      "txHash": "0xb51407319f08e5fe03f0243962443b1faa545905a03bbf041e30ba4edecb7830",
+      "address": "0x03f1222E05bB52b6A018713D15D2e4A419483550",
+      "multisig": false
+    },
+    "trancheVault": {
+      "txHash": "0xcb054e05e82b3ab0ab62445a80ccb29204d418b7ac84448a853959164acf5d04",
+      "address": "0x89107adBdd7c562De868bdD40f2185cC14B10F07",
+      "multisig": false
+    },
+    "carbon_protocolConfig": {
+      "txHash": "0x72dcf1225abc6efbdbc6e6bff04c91e96522125f5398047f321c6d8a637758c4",
+      "address": "0x39BA3C5a87a44401942a2cD90fEf9692d8b52978",
+      "multisig": false
+    },
+    "carbon_protocolConfig_proxy": {
+      "txHash": "0xe56786bce5c2a74323d88fbce50f595f7c894c871e2e678e4533f188c17e8ba5",
+      "address": "0x359Ca1E991DFc3BEBE7bbd2CA4CF1F7046d6dB08",
+      "multisig": false
+    },
+    "structuredPortfolioFactory": {
+      "txHash": "0x795a473a54b4b8f393029778786b5943e82313f800e90bc4a6985d9270c9984b",
+      "address": "0xfB95F2409819B53039EDAe19D4630f46caA6C3b6",
+      "multisig": false
+    },
+    "carbon_defaultDepositController": {
+      "txHash": "0xbbe957d38135ee932168962da0881c465745863eba4a2250a2336779cbe3053f",
+      "address": "0x47F33Cf88d901F9FAEFCcd53A9A75FC8024f18B7",
+      "multisig": false
+    },
+    "carbon_defaultWithdrawController": {
+      "txHash": "0x29999810a000273ce56d8fb9c1a1a21f6f973f0aaf908869c8a9f6048a3e1f23",
+      "address": "0xaa6A42C5B19f5e02093DF5B2DEcb08f51D95bbAf",
+      "multisig": false
+    },
+    "carbon_defaultTransferController": {
+      "txHash": "0xe5f8b4e13c0840ce60a8e86b6535b40be118cef3e7d97ea2b13e66fa21f3c323",
+      "address": "0xD9db12D1084D69dD59927e4B8F1eCD789743AeC5",
+      "multisig": false
+    },
+    "allowAllLenderVerifier": {
+      "txHash": "0x1ef932695e0e1186222e5a4dbcab47fdb326150b9ad52de3876c45ed9222ac59",
+      "address": "0xBDcf366dB4Eb11a3FE8F381eD0452aDD818767B3",
+      "multisig": false
+    }
+  },
+  "optimism_goerli": {
+    "structuredPortfolio": {
+      "txHash": "0x27c3a40e78156d0c41d710ec1b80bc36024968cb3bad32fa4924c8b493b22f44",
+      "address": "0x023307BdC7c5997b5598eF08c66ab91D93ac5115",
+      "multisig": false
+    },
+    "trancheVault": {
+      "txHash": "0xb9627ceaa8b90c2f7761d408c671675270c857d3073e498f9959fcc194cb1ec7",
+      "address": "0x5D46133880470bfC8C04970addadB80200112603",
+      "multisig": false
+    },
+    "carbon_protocolConfig": {
+      "txHash": "0xa48360c0e2142b1e44d9d39bf88356ee74a93fa6aadf47462386f3046532b61a",
+      "address": "0x706e41a7B0C9C5D83F8BC0fAFefaB80942355EdB",
+      "multisig": false
+    },
+    "carbon_protocolConfig_proxy": {
+      "txHash": "0x39df18f4e11b96155afb1e7c818c8cbf647fdd1d893dfbcd08a4f42822601f43",
+      "address": "0x58495E7A3e73830bfC73aebFf392E29D3eb53A30",
+      "multisig": false
+    },
+    "structuredPortfolioFactory": {
+      "txHash": "0x8d15b2ed85dff94ee0e30b2eaa400d1137a0b9334bc83ec117729412c4e59158",
+      "address": "0x35f69807d1a0DE2207e4d992f5e1647e9fCf2BFf",
+      "multisig": false
+    },
+    "carbon_defaultDepositController": {
+      "txHash": "0x4dddfc53a6479dd4cd9258d836596dfd0e627e9bdb8266e4247c79fbf52ede4b",
+      "address": "0xf7de304c354a420a1B3E2DAE2250CDbD4b0cF26D",
+      "multisig": false
+    },
+    "carbon_defaultWithdrawController": {
+      "txHash": "0x089bf0d0e141dc00ccec6bf150aaa6717cccd1d59f34e3c1faedff985e2666fe",
+      "address": "0xDb65b8CC736f99214Af416d88d591401Dce16bAb",
+      "multisig": false
+    },
+    "carbon_defaultTransferController": {
+      "txHash": "0x5dfde736ae8f5bc8dfa36bbf01aeac60b324dd96d016ac9ecc7d14fd0105d1aa",
+      "address": "0x0D8dc7aEfD2b2423Ff8566271Dc0E008bBe47b45",
+      "multisig": false
+    },
+    "allowAllLenderVerifier": {
+      "txHash": "0x277e28dc652f4d02f2fa8011fd152c8cc54387a7d0f7354c92ba83267dc6b609",
+      "address": "0x9EA249482D0ab26a5628e20163fdda591f040304",
+      "multisig": false
+    }
+  }
+}

@@ -15,6 +15,14 @@
   gap: 24px;
 }
 
+.deployment {
+  border: 2px solid black;
+}
+
+.deploymentTitle {
+  text-transform: capitalize;
+}
+
 .chainBlock {
   width: 100%;
   max-width: 100%;
