@@ -26,6 +26,10 @@
   color: var(--red12);
 }
 
+.deployment:nth-child(4n + 1) .table th {
+  background-color: var(--red6);
+}
+
 .deployment:nth-child(4n + 1) .table th,
 .deployment:nth-child(4n + 1) .table td,
 .deployment:nth-child(4n + 1) .deploymentChain {
@@ -36,6 +40,10 @@
   background-color: var(--green4);
   border-color: var(--green8);
   color: var(--green12);
+}
+
+.deployment:nth-child(4n + 2) .table th {
+  background-color: var(--green6);
 }
 
 .deployment:nth-child(4n + 2) .table th,
@@ -50,6 +58,10 @@
   color: var(--blue12);
 }
 
+.deployment:nth-child(4n + 3) .table th {
+  background-color: var(--blue6);
+}
+
 .deployment:nth-child(4n + 3) .table th,
 .deployment:nth-child(4n + 3) .table td,
 .deployment:nth-child(4n + 3) .deploymentChain {
@@ -60,6 +72,10 @@
   background-color: var(--gray4);
   border-color: var(--gray8);
   color: var(--gray12);
+}
+
+.deployment:nth-child(4n + 4) .table th {
+  background-color: var(--gray6);
 }
 
 .deployment:nth-child(4n + 4) .table th,
